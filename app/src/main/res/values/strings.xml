@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Garbage Trips Calculator</string>
+    <string name="enter_weights_title">Enter comma separated list of garbage weights</string>
+    <string name="input_example_hint">example: 1.1,1.2,2.8</string>
+    <string name="button_calculate_trips">Calculate min number of trips</string>
+    <string name="general_error">Something went wrong. %1$s</string>
+    <string name="trips_result_prefix">Minimum number of trips:</string>
+</resources>
