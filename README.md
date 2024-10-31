@@ -3,7 +3,8 @@ Android client app for calculating the minimum number of garbage trips.
 This app consumes the [garbage-trips-calculator-api](https://github.com/r-cohen/garbage-trips-calculator-api)
 
 ## Debug Build
-Available [here](https://github.com/r-cohen/garbage-trips-calculator-android/releases/tag/debug-alpha)
+Available [here](https://github.com/r-cohen/garbage-trips-calculator-android/releases/tag/debug-alpha).
+Please note that the hosted REST API might timeout on 1st request, since it's hosted on a free host account.
 
 ## Scalibility Considerations
 1. The client application can hold a local cache, as a database for example,
