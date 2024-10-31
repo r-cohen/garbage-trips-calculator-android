@@ -4,10 +4,12 @@ import com.r.cohen.garbagetripscalculator.models.BagWeightsRequest
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+private const val endpoint = "garbage-trips-calculator-api.onrender.com"
+
 // singleton repository which calls the api
 object GarbageTripsCalculatorAPIRepo {
     private val apiService = Retrofit.Builder()
-        .baseUrl("https://skdfhksdhfksghfsdghfs")
+        .baseUrl("https://$endpoint")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .create(GarbageTripsCalculatorAPIService::class.java)
